@@ -28,7 +28,7 @@ jobs:
 
       # Executa um único comando usando o shell runners
       - name: executando docker 
-        run: docker run docker/whalesay cowsay PEDRO PAULO
+        run: docker run docker/whalesay cowsay PEDRO PAULO - CURSO DEVOPS
 
       # Executa um conjunto de comandos usando o shell runners
       - name: Run a multi-line script
